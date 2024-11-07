@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Sign Up</title>
+	<style>
+	body{
+			background-color: #faf9f2;
+		}
+		nav ul li{
+			display: inline-block;
+		}
+		nav ul{
+			text-align: center;
+		}
+		nav ul li a {
+            padding: 18px 50px;
+            font-size: 20px;
+            display: block;
+            font-family: Garamond, serif;
+            color: black;
+            text-decoration: none;
+        }       
+        input[type="name"],
+		input[type="number"],
+		input[type="email"],
+		input[type="password"]{
+			width: 100%;
+			padding: 8px;
+			color: #c2bae3;
+			text-align: center;
+			font-family: Times New Roman, sans-serif;
+		}
+		input[placeholder="Start Typing Here...."]{
+			text-align: center;
+		}
+		form{
+			max-width: 600px;
+			margin: 0 auto;
+			color: white;
+
+		}
+		input[type="submit"]{
+			padding: 10px 20px;
+			margin: 10px 5px;
+			background-color: #305873;
+			color: floralwhite;
+			border: none;
+			border-radius: 5%;
+			cursor: pointer;
+			text-align: center;
+		}
+		input[type="reset"]{
+			padding: 10px 20px;
+			margin: 10px 5px;
+			background-color: #305873;
+			color: floralwhite;
+			border: none;
+			border-radius: 5%;
+			cursor: pointer;
+		}
+		input[type="submit"]:hover{
+			background-color: #d2b8d9;
+		}
+		input[type="reset"]:hover{
+			background-color: #f0ddec;
+		}
+		a{
+			color: #7bb7e0;
+			text-decoration: none;
+			font-family: Garamond, sans-serif;
+		}
+		a:hover{
+        	color: #7bb7e0;
+        }
+        footer{
+        	text-align: center;
+        	background-color: #e3e2d8;
+        	padding: 5px;
+        	color: #a19f91;
+        }
+        .header{
+        	text-align: center;
+        }
+
+		.form-section{
+			width: 700px;
+			margin-top: 20px;
+			padding: 50px;
+			background-color: #bad5e8;
+			border: 4px solid #305873;
+			border-radius: 4px;
+			text-align: center;
+			margin-left: 310px;
+			
+
+		}
+    </style>
+</head>
+<body>
+	<div class="container">
+		<div class="header">
+			<img src="logo2.png" width="350">
+		</div>
+		</div>
+		<p>______________________________________________________________________________________________________________________________________________________________________________________</p>
+		<nav>
+			<ul>
+				<li><a href="index.html">HOME</a></li>
+				<li><a href="Shop.html">DJERF AVENUE LOUNGEWEAR</a></li>
+				<li><a href="Shop 2.html">DJERF AVENUE BEAUTY</a></li>
+				<li><a href="Log in.html" target="_blank">LOG IN </a></li>
+				<li><a href="Sign up.html" target="_blank">SIGN UP</a></li>
+			</ul>
+		</nav>
+		<p>______________________________________________________________________________________________________________________________________________________________________________________</p><br>
+	</div>
+	<div class="form-section">
+		<form>
+
+			<label for="name"><b>Enter Username:</b></label><br>
+		<input type="name" id="name" name="name" cols="50" placeholder="Start Typing Here....">
+		<br><br>
+		<label for="email"><b>Enter Email:</b></label>
+		<input type="email" id="email" name="email" placeholder="Start Typing Here....">
+		<br><br>
+		<label for="security"><b>Enter Password:</b></label><br>
+		<input type="password" id="security" name="security" cols="50" placeholder="Start Typing Here....">
+		<br><br>
+		<label for="radio"><b>Sex:</b></label><br>
+		<input type="radio" id="radio1" name="radio" value="Male">Male
+		<input type="radio" id="radio2" name="radio" value="Female">Female
+		<input type="radio" id="radio3" name="radio" value="Prefer not to dictate">Prefer not to dictate
+		<br><br>
+		<label for="name"><b>Age:</b></label>
+		<input type="number" id="number" name="number" >
+		<br><br>
+		<label for="birthday"><b>Enter Birthdate:</b></label>
+		<input type="date" id="birthday" name="birthday">
+		<br><br>
+		<label for="check"><b>Do you allow this site to <u>collect the provided data?</u></b></label>
+		<input type="checkbox" id="check" name="check">I consent
+		<br>
+		<input type="submit" value="SIGN UP">
+		<input type="reset" value="RESET"><br><br>
+
+		Click me to go back to <a href="index.html">HOMEPAGE</a>
+		<br>
+		Click me to <a href="Log in.html" target="_blank">LOG IN</a>
+
+		</form>
+	</div><br><br>
+	<footer>
+		&copy; 2024 Djerf Avenue. All Rights Reserved.♡
+	</footer>
+	
+	
+
+</body>
+</html>
